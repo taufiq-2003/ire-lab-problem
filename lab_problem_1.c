@@ -17,7 +17,7 @@ int main()
   }
 if (MAT<33)
   {
-    printf("you have failed the exam mathematics exam \n");
+    printf("you have got below 33 in  the math and failed in Mathematic  exam \nso you have failed the whole exam");
     return 0;
   }  
 
@@ -32,7 +32,7 @@ if (MAT<33)
   }
 if (PHY<33)
   {
-    printf("you have failed the physics exam  \n");
+    printf("you have got below 33 in  the Physics and failed in Physics  exam \nso you have failed the whole exam");
     return 0;
   }  
   
@@ -46,13 +46,13 @@ if (PHY<33)
   }
 if (CHE<33)
   {
-    printf("you have failed the chemistry exam  \n");
+    printf("you have got below 33 in  the chemistry and failed in Chemistry  exam \nso you have failed the whole exam");
     return 0;
   }  
 
 
   total = MAT+PHY+CHE;
-  average = total/3.00;
+  average = total/3.0;
   printf("%.2f  \n",average);
 
   
@@ -92,7 +92,7 @@ if (CHE<33)
     
   }
 
-  printf("your obtained average marks : %d  \n",average);
+  printf("your obtained average marks : %.2f  \n",average);
   
   
   
