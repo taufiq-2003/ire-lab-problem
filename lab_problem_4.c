@@ -1,8 +1,3 @@
-// Movie Ticket Pricing System: Write a C program that calculates the total movie ticket price based on the customer's age, movie type, and number of tickets. The movie type should be selected using switch, where 1 represents a Regular Movie costing 300 per ticket, 2 represents a 3D Movie costing 450 per ticket, and 3 represents an IMAX Movie costing 600 per ticket. Apply age-based discounts using if, else if, and else: children aged below 12 receive a 50% discount, students aged 12–22 receive a 20% discount, adults aged 23–59 pay the regular price, and senior citizens aged 60 or above receive a 30% discount. If more than 5 tickets are purchased, apply an additional 10% discount to the final amount. The program should also check for invalid ages, ticket quantities, and movie types and display appropriate error messages.
-
-
-
-
 #include <stdio.h> 
 
 int main()
