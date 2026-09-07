@@ -1,8 +1,8 @@
 #include <stdio.h> 
 
 int main()
-{ int MAT,PHY,CHE,total;
-
+{ 
+  int MAT,PHY,CHE,total;
   float average;
 
   printf("please enter the numbers from 0 to 100  \n");
