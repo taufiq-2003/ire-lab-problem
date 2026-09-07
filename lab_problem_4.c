@@ -21,11 +21,8 @@ int main()
     printf("number of tickets  \n");
     scanf("%d", &number_of_tickets);
     
-    
-    
-    
-    
 
+    
     switch (service)
     {
     case 1:
